@@ -116,7 +116,6 @@ public class MainActivity extends AppCompatActivity implements
     /* Click events in RecyclerView items */
     @Override
     public void onItemClick(View v, int position) {
-        //COMPLETE: Handle list item click event
         RealmTask myTask = mAdapter.getItem(position);
         Intent intent = new Intent(this, TaskDetailActivity.class);
         intent.putExtra(URI_EXTRA, myTask);
@@ -126,8 +125,6 @@ public class MainActivity extends AppCompatActivity implements
     /* Click events on RecyclerView item checkboxes */
     @Override
     public void onItemToggled(boolean active, int position) {
-        //COMPLETE: Handle task item checkbox event
-
         RealmTask myTask = mAdapter.getItem(position);
 
         Uri uriUpdateTask = DatabaseContract.CONTENT_URI
