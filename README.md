@@ -1,7 +1,7 @@
 # RealmTodo
 Todo implementation of Android Content Provider with RealmDB
 
-The only thing you need to do is override the CP CRUD methods. Otherwise, you are free to use Android Native RecyclerView and Adapter if you are more comfortable with it.
+RealmDB is an interesting, fast noSQL database. It can easily integrate with Android native components. The only thing you need to do is override the CP CRUD methods. You are also free to use Android Native RecyclerView and Adapter if you are more comfortable with it.
 
 
 <div align="left">
