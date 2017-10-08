@@ -6,8 +6,6 @@ import android.content.Context;
 /**
  * Interface to provide access to an {@link AlarmManager} instance that can be configured
  * during automated unit tests.
- *
- * NO MODIFICATIONS SHOULD BE MADE TO THIS CLASS OR ITS USAGE.
  */
 public class AlarmManagerProvider {
     private static final String TAG = AlarmManagerProvider.class.getSimpleName();
