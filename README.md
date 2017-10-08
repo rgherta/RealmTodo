@@ -1,9 +1,7 @@
 # RealmTodo
-Todo implementation with RealmDB and Android Content Provider
+Todo implementation of Android Content Provider with RealmDB
 
-Android Native Content Provider using RealmDB
-
-The Todo list also uses an Android Native RecyclerView and Adapter
+The only thing you need to do is override the CP CRUD methods. Otherwise, you are free to use Android Native RecyclerView and Adapter if you are more comfortable with it.
 
 
 <div align="left">
